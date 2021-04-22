@@ -1,4 +1,1 @@
 dataset/*.zip filter=lfs diff=lfs merge=lfs -text
-dataset/with_mask.zip filter=lfs diff=lfs merge=lfs -text
-dataset/without_mask.zip filter=lfs diff=lfs merge=lfs -text
-dataset/wrong_mask.zip filter=lfs diff=lfs merge=lfs -text
