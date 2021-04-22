@@ -68,12 +68,9 @@ for imagePath in imagePaths:
 data = np.array(data, dtype="float32")
 labels = np.array(labels)
 
-print(labels)
-
 # one-hot 인코딩
 lb = LabelBinarizer()
 labels = lb.fit_transform(labels)
-print(labels)
 # 3개이기 때문에 to_categorical(labels) 아님
 
 # 8:2 로 트레이닝 데이터와 테스트 데이터 분류
